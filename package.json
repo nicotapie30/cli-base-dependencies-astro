@@ -1,0 +1,16 @@
+{
+  "name": "create-base-project",
+  "version": "1.0.0",
+  "description": "Paquete que busca acelerar las tareas repetitivas y rutinarias a la hora de inicializar un proyecto en astro",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "repetitiva",
+    "astro"
+  ],
+  "author": "Nicolás Alejandro Tapié",
+  "license": "ISC"
+}
