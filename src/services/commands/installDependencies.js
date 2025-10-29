@@ -22,7 +22,7 @@ export const execCommands = async (packageManager, command) => {
     });
 
     installDependencies.stdout.on('data', (data) => {
-      console.log(chalk.gray(data.toString()));
+      console.log(chalk.white(data.toString()));
     });
 
     installDependencies.stderr.on('data', (data) => {
@@ -31,14 +31,11 @@ export const execCommands = async (packageManager, command) => {
 
     installDependencies.on('close', (code) => {
       if (code === 0) {
-        console.log(
-          chalk.bgGreen.black(
-            '✅ Instalación de dependencias completada con éxito!'
-          )
-        );
         resolve();
       } else {
-        reject(new Error(chalk.red(`El proceso terminó con código ${code}`)));
+        reject(
+          new Error(chalk.red.bold(`El proceso terminó con código ${code}`))
+        );
       }
     });
   });
