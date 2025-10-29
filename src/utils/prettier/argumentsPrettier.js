@@ -1,9 +1,9 @@
 const commandPrettier = [
-  "install",
-  "prettier",
-  "prettier-plugin-astro",
-  "prettier-plugin-tailwindcss",
-  "--save-dev",
+  'install',
+  '--save-dev',
+  'prettier',
+  'prettier-plugin-astro',
+  'prettier-plugin-tailwindcss',
 ];
 
-export {commandPrettier};
+export { commandPrettier };
