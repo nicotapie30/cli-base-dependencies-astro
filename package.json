@@ -16,10 +16,5 @@
     "astro"
   ],
   "author": "Nicolás Alejandro Tapié",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^3.6.2",
-    "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.7.1"
-  }
+  "license": "ISC"
 }

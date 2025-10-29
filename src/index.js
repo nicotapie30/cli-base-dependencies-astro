@@ -41,3 +41,5 @@ const createEslintFile = async () => {
   }
 };
 
+createEslintFile();
+createPrettierFile();
