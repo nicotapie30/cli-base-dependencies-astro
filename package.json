@@ -2,12 +2,14 @@
   "name": "create-base-project",
   "version": "1.0.0",
   "description": "Paquete que busca acelerar las tareas repetitivas y rutinarias a la hora de inicializar un proyecto en astro",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "bin": {
-    "create-base-project": "./index.js"
+    "create-base-project": "src/index.js"
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
   "keywords": [
     "npm",
     "repetitiva",
