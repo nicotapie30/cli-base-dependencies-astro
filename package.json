@@ -1,6 +1,6 @@
 {
   "name": "cli-base-dependencies-astro",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "CLI para configurar proyectos Astro con las mejores prácticas. Genera automáticamente archivos de configuración como ESLint y Prettier, e instala los paquetes recomendados para un desarrollo optimizado.",
   "main": "src/index.js",
   "type": "module",
