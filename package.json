@@ -2,15 +2,22 @@
   "name": "create-base-project",
   "version": "1.0.0",
   "description": "Paquete que busca acelerar las tareas repetitivas y rutinarias a la hora de inicializar un proyecto en astro",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-base-project": "./index.js"
   },
+  "scripts": {},
   "keywords": [
     "npm",
     "repetitiva",
     "astro"
   ],
   "author": "Nicolás Alejandro Tapié",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.7.1"
+  }
 }
