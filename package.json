@@ -7,6 +7,10 @@
   "bin": {
     "create-base-project": "src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicotapie30/cli-base-dependencies-astro"
+  },
   "keywords": [
     "npm",
     "pnpm",
